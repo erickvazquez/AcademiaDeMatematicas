@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+    <title>Menu Lateral Animado Responsive</title>
+    <link rel="stylesheet" href="icon/css/fontello.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <main>
+        <div class="content-all">
+            <header>
+            <img src="image/logo.png">
+            </header>
+            <input type="checkbox" id="check">
+            <label for="check" class="icon-menu" id="menu">Menu</label>
+            
+            
+            <nav class="menu">
+                <ul>
+                    <a href="index.html"><li>Inicio</li></a>
+                    <a href="material.html"><li>Material</li></a>
+                    <a href="avisos.html"><li>Avisos</li></a>
+                    <a href="profesores.html"><li>Profesores</li></a>
+                </ul>
+            </nav>
+            <center>
+                
+                
+   
+        <br />
+        <br>
+
+                <h3>Ingrese los datos correspondientes</h3>
+                <br />
+                <br />
+
+                <form action="Cuentas.php" method='post'>
+
+                   <div class="form-group">
+
+                        <label for="email">Nombre de Usuario</label>
+                        <i class="glyphicon glyphicon-user"></i><input type="text" class="form-control" name="user" required style="width: 400px" id="user">
+
+                   </div>
+
+                   <div class="form-group">
+
+                       <label for="pwd">Contraseña</label>
+                       <i class="glyphicon glyphicon-lock"></i><input type="password" class="form-control" required style="width: 400px" name="pwd" id="pwd">
+
+                   </div>
+
+                   <br />
+
+                   <button type="submit" class="btn btn-success">Entrar</button>
+
+               </form> 
+
+                <br />
+                <br />
+
+                <img src="image/IPN.png" style="width: 200px; height: 200px;" alt="Login" />
+                <br />
+                <br />
+                
+                <div class="alert alert-danger" style="width: 70%;">
+                    <strong>Si olvidaste tu contraseña</strong> solicitar el reinicio de su clave al: <strong> Presidente de Academia</strong>
+                </div>
+
+                <div class="alert alert-danger" style="width: 70%px;">
+                    <strong>Recuerda</strong> que para poder acceder, es necesario que el presidente de academia haya registrado previamente tu cuenta.
+                </div>
+                
+            </center>
+            </div>
+    </main>
+</body>
+</html>
